@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13FDB25C261DFA3D00AB8972 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13FDB25B261DFA3D00AB8972 /* main.cpp */; };
+		13FDB273261F57C200AB8972 /* SunPos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13FDB269261F11D400AB8972 /* SunPos.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		13FDB258261DFA3D00AB8972 /* Tracker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tracker; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FDB25B261DFA3D00AB8972 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13FDB269261F11D400AB8972 /* SunPos.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SunPos.cpp; sourceTree = "<group>"; };
+		13FDB26A261F11D400AB8972 /* SunPos.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SunPos.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				13FDB25B261DFA3D00AB8972 /* main.cpp */,
+				13FDB269261F11D400AB8972 /* SunPos.cpp */,
+				13FDB26A261F11D400AB8972 /* SunPos.hpp */,
 			);
 			path = Tracker;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13FDB25C261DFA3D00AB8972 /* main.cpp in Sources */,
+				13FDB273261F57C200AB8972 /* SunPos.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
